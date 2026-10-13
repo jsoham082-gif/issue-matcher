@@ -1,0 +1,24 @@
+{
+  "name": "issue-matcher",
+  "version": "1.0.0",
+  "description": "Finds open-source issues that match your skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsoham082-gif/issue-matcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jsoham082-gif/issue-matcher/issues"
+  },
+  "homepage": "https://github.com/jsoham082-gif/issue-matcher#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

@@ -9,7 +9,21 @@
 <body>
   <h1>Issue Matcher</h1>
   <p>Find open-source issues that match your skills.</p>
-  <p id="status">Checking server...</p>
+
+  <div class="search">
+    <select id="language">
+      <option value="javascript">JavaScript</option>
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+      <option value="typescript">TypeScript</option>
+      <option value="go">Go</option>
+    </select>
+    <button id="search-btn">Find issues</button>
+  </div>
+
+  <p id="message"></p>
+  <ul id="results"></ul>
+
   <script src="script.js"></script>
 </body>
 </html>
